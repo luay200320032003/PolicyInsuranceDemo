@@ -1,0 +1,21 @@
+# Ignore Visual Studio files
+.vs/
+.vscode/
+.idea/
+
+# Ignore build output directories
+bin/
+obj/
+
+# Ignore temporary files and backups
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore logs and database files
+*.log
+*.db
+
+# Ignore NuGet packages
+*.nupkg

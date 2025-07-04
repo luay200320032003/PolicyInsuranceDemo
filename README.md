@@ -90,3 +90,19 @@ Example Response (Success):
     },
     "message": "Policy fetched successfully."
 }
+Example Response (Policy Not Found):
+json
+Copy
+{
+    "status": 404,
+    "title": "Policy Not Found",
+    "detail": "The policy number provided does not exist.",
+    "instance": "/api/policies/TX123456"
+}
+Example Response (Invalid Policy Number Format):
+json
+Copy
+{
+    "success": false,
+    "message": "Policy number must be in the format XX123456."
+}

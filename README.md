@@ -76,4 +76,17 @@ This endpoint retrieves the insurance policy details based on the provided polic
 #### Example Request:
 
 ```bash
-
+Example Response (Success):
+{
+    "success": true,
+    "data": {
+        "policyNumber": "TX123456",
+        "effectiveDate": "2025-01-01T00:00:00",
+        "premiumAmount": 1200.50,
+        "limits": [
+            { "coverage": "Property", "limit": 1000000 },
+            { "coverage": "Liability", "limit": 500000 }
+        ]
+    },
+    "message": "Policy fetched successfully."
+}
